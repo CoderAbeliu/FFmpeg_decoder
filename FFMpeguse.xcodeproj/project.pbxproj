@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4AE1FE1FD927FC0047DC8F /* RTSPPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4AE1FC1FD927FC0047DC8F /* RTSPPlayer.m */; };
+		1A4AE2001FD928210047DC8F /* ai.264 in Resources */ = {isa = PBXBuildFile; fileRef = 1A4AE1FF1FD928210047DC8F /* ai.264 */; };
 		1A5E6D191FBD730B0048BA88 /* OpenglView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E6D181FBD730B0048BA88 /* OpenglView.m */; };
-		1A5E6D1C1FBD784D0048BA88 /* MoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E6D1B1FBD784D0048BA88 /* MoviePlayer.m */; };
 		1A5E6D1E1FBD7AF30048BA88 /* main_demo_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E6D1D1FBD7AF30048BA88 /* main_demo_1.png */; };
 		1AC7B3471FBC78D800862E71 /* sintel.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1AC7B3461FBC78D700862E71 /* sintel.mov */; };
 		1AED120F1FBC4489003D578B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AED120E1FBC4489003D578B /* AppDelegate.m */; };
@@ -61,10 +62,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4AE1FC1FD927FC0047DC8F /* RTSPPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSPPlayer.m; sourceTree = "<group>"; };
+		1A4AE1FD1FD927FC0047DC8F /* RTSPPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSPPlayer.h; sourceTree = "<group>"; };
+		1A4AE1FF1FD928210047DC8F /* ai.264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ai.264; sourceTree = "<group>"; };
 		1A5E6D171FBD730B0048BA88 /* OpenglView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenglView.h; sourceTree = "<group>"; };
 		1A5E6D181FBD730B0048BA88 /* OpenglView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenglView.m; sourceTree = "<group>"; };
-		1A5E6D1A1FBD784D0048BA88 /* MoviePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlayer.h; sourceTree = "<group>"; };
-		1A5E6D1B1FBD784D0048BA88 /* MoviePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayer.m; sourceTree = "<group>"; };
 		1A5E6D1D1FBD7AF30048BA88 /* main_demo_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_demo_1.png; sourceTree = "<group>"; };
 		1AC7B3461FBC78D700862E71 /* sintel.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sintel.mov; sourceTree = "<group>"; };
 		1AED120A1FBC4489003D578B /* FFMpeguse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFMpeguse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -296,6 +298,7 @@
 				1AED12181FBC4489003D578B /* LaunchScreen.storyboard */,
 				1AED121B1FBC4489003D578B /* Info.plist */,
 				1AED121C1FBC4489003D578B /* main.m */,
+				1A4AE1FF1FD928210047DC8F /* ai.264 */,
 				1AC7B3461FBC78D700862E71 /* sintel.mov */,
 				1A5E6D1D1FBD7AF30048BA88 /* main_demo_1.png */,
 				1AED12461FBC44D7003D578B /* FFmpeg-iOS */,
@@ -327,8 +330,8 @@
 			children = (
 				1A5E6D171FBD730B0048BA88 /* OpenglView.h */,
 				1A5E6D181FBD730B0048BA88 /* OpenglView.m */,
-				1A5E6D1A1FBD784D0048BA88 /* MoviePlayer.h */,
-				1A5E6D1B1FBD784D0048BA88 /* MoviePlayer.m */,
+				1A4AE1FD1FD927FC0047DC8F /* RTSPPlayer.h */,
+				1A4AE1FC1FD927FC0047DC8F /* RTSPPlayer.m */,
 			);
 			path = OpenGLView;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 			files = (
 				1AED121A1FBC4489003D578B /* LaunchScreen.storyboard in Resources */,
 				1A5E6D1E1FBD7AF30048BA88 /* main_demo_1.png in Resources */,
+				1A4AE2001FD928210047DC8F /* ai.264 in Resources */,
 				1AC7B3471FBC78D800862E71 /* sintel.mov in Resources */,
 				1AED12171FBC4489003D578B /* Assets.xcassets in Resources */,
 				1AED12151FBC4489003D578B /* Main.storyboard in Resources */,
@@ -686,8 +690,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AED12121FBC4489003D578B /* ViewController.m in Sources */,
+				1A4AE1FE1FD927FC0047DC8F /* RTSPPlayer.m in Sources */,
 				1A5E6D191FBD730B0048BA88 /* OpenglView.m in Sources */,
-				1A5E6D1C1FBD784D0048BA88 /* MoviePlayer.m in Sources */,
 				1AED121D1FBC4489003D578B /* main.m in Sources */,
 				1AED120F1FBC4489003D578B /* AppDelegate.m in Sources */,
 			);
