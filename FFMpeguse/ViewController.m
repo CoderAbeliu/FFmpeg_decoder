@@ -32,7 +32,7 @@
     imageView.image=[UIImage imageNamed:@"main_demo_1"];
     [self.view addSubview:imageView];
     
-    NSString *path=[[NSBundle mainBundle]pathForResource:@"ai" ofType:@"264"];
+    NSString *path=[[NSBundle mainBundle]pathForResource:@"sintel" ofType:@"mov"];
     _myPlayer=[[RTSPPlayer alloc]initWithVideoUrl:path];
     displayLink=[CADisplayLink displayLinkWithTarget:self selector:@selector(showMyMovie) ];
     [displayLink setFrameInterval:4];
